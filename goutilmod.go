@@ -1,6 +1,6 @@
 package goutilmod
 
-func max(a int, b int) int {
+func Max(a int, b int) int {
 	if a > b {
 		return a
 	} else {
