@@ -15,3 +15,35 @@ func Min(a int, b int) int {
 		return a
 	}
 }
+
+func MaxThree(a int, b int, c int) int {
+	if a > b {
+		if a > c {
+			return a
+		} else {
+			return c
+		}
+	} else {
+		if b > c {
+			return b
+		} else {
+			return c
+		}
+	}
+}
+
+func MinThree(a int, b int, c int) int {
+	if a < b {
+		if a < c {
+			return a
+		} else {
+			return c
+		}
+	} else {
+		if b < c {
+			return b
+		} else {
+			return c
+		}
+	}
+}
